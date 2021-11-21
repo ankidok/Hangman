@@ -13,8 +13,8 @@ class Hangman:
         self.hint = ''
         self.hintedSpaces = ""
         self.hintsLeft = 8
-        self.control1 = len(self.word)
-        self.control2 = len(self.word)
+        self.control1 = 0
+        self.control2 = 0
         self.menu()
 
     def menu(self):
@@ -26,6 +26,8 @@ class Hangman:
         sleep(1)
         while True:
             system("cls")
+            self.control1 = len(self.word)
+            self.control2 = len(self.word)
             self.hintedSpaces = ' '.join(self.spaces)
             while True:
                 print(hangmanascii[-self.hintsLeft])
