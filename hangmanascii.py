@@ -1,4 +1,4 @@
-hangmanascii= ["""
+hangmanascii = ["""
       _______
      |/      
      |      
@@ -7,7 +7,7 @@ hangmanascii= ["""
      |      
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      
@@ -16,7 +16,7 @@ hangmanascii= ["""
      |      
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      (_)
@@ -25,7 +25,7 @@ hangmanascii= ["""
      |      
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      (_)
@@ -34,7 +34,7 @@ hangmanascii= ["""
      |        
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      (_)
@@ -43,7 +43,7 @@ hangmanascii= ["""
      |        
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      (_)
@@ -52,7 +52,7 @@ hangmanascii= ["""
      |      
      |
     _|___
-""","""
+""", """
       _______
      |/      |
      |      (_)
@@ -61,7 +61,7 @@ hangmanascii= ["""
      |      / 
      |
     _|___
-""","""
+""", """
 
      |/      |
      |      (_)
@@ -72,4 +72,8 @@ hangmanascii= ["""
     _|___
 """]
 
-wordList = ["ARABA", "MOTOR", "PORTAKAL", "SAAT", "KAĞIT", "TAHTA"]
+wordList = [["ARABA", "Bir araç..."], ["MOTOR", "Bir taşıt..."], ["PORTAKAL", "Bir meyve..."], ["SAAT", "Zamanı "
+                                                                                                        "Ölçmeye "
+                                                                                                        "yarayan bir "
+                                                                                                        "araç..."],
+            ["KAĞIT", "Üzerine yazı yazılan nesne..."], ["TAHTA", "Doğal yapı malzemesi..."]]
