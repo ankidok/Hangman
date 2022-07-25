@@ -1,6 +1,6 @@
 # Hangman
-Hangman wih python on Console Interface
+Console Interface Based hangman game.
 
-Hangman game with my own algorithm alpha version.
+Coded with basic statements. You can modify it but its just a hangman game not much.
 
-Language is Turkish. You can reform it easily.
+Alphabet is Turkish Latin Alphabet. You can replace the Alphabet as your wish.
